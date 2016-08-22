@@ -1,3 +1,0 @@
-if sSourceSFX ~= nil and File.DoesExist(sSourceSFX) then tPath_parts = String.SplitPath(sSourceSFX) else tPath_parts = String.SplitPath(sGetText); end
-if SetupExe ~= nil then System.EndProcess(String.SplitPath(SetupExe).Filename..".exe"); end
-if bTimeCheck then local sIfiles = tPath_parts.Filename.." (1)" SetupExe = MakeFileNameIndex(sSaveFolder.."\\"..sIfiles..".exe") else SetupExe = sSaveFolder.."\\"..tPath_parts.Filename..".exe"; end
