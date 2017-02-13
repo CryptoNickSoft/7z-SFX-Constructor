@@ -1,4 +1,1 @@
--== 7z SFX Constructor Update ==-
-
-[BuildNumber]
-assembly=606
+none
